@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
 export class HomeComponent {
   selectedExpress: string = '';
   selectedRole: string = '';
+
+  constructor(private router: Router,) {}
 
   express = [
     { value: 'flash', viewValue: 'Flash Express' },
@@ -24,5 +27,9 @@ export class HomeComponent {
 
   save(): void {
     console.log(this.selectedRole, this.selectedExpress);
+    this.router.navigateByUrl('/upload');
+
   }
+
+
 }

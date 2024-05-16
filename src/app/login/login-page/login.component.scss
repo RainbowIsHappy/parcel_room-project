@@ -1,5 +1,6 @@
+html,
 body {
-  height: 0 !important;
+  height: 100% !important;
 }
 
 p,input,a,button {
@@ -7,6 +8,49 @@ p,input,a,button {
 }
 
 img {
-  width: 15%;
-  height: 15%;
+  width: 200px;
+  height: 200px;
+}
+
+.nav-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.login-btn,.register-btn {
+  color: black;
+  border-color: black;
+}
+
+.login-btn:hover,.register-btn:hover {
+  background-color: #E8E2DC;
+  color: black;
+  border-color: #E8E2DC;
+}
+
+.right-body{
+  background-image: url("https://media.licdn.com/dms/image/D4D12AQFIgOWm6rfogg/article-cover_image-shrink_720_1280/0/1687255589279?e=2147483647&v=beta&t=UzoTdeWHDvbvTP8e1eognGRVy8YN23J9bxpgN_wglPM");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  z-index: -1;
+}
+
+.mx-custom {
+  margin: 100px;
+}
+
+.main-wrapper {
+  height: 92.5vh;
+}
+
+p {
+  -webkit-text-stroke: 1px white;
+}
+
+.fw-700 {
+  font-weight: 700;
 }

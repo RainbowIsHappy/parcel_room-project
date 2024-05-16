@@ -3,13 +3,15 @@ import { CommonModule } from '@angular/common';
 
 import { UploadRoutingModule } from './upload-routing.module';
 import { UploadComponent } from './upload-page/upload.component';
+import { MatButtonModule } from '@angular/material/button';
 
 
 @NgModule({
   declarations: [UploadComponent],
   imports: [
     CommonModule,
-    UploadRoutingModule
+    UploadRoutingModule,
+    MatButtonModule
   ]
 })
 export class UploadModule { }

@@ -1,0 +1,40 @@
+body {
+  height: 0 !important;
+}
+
+p, input, a, button {
+  font-family: 'Athiti';
+}
+
+.nav-logo {
+  height: 25px;
+  width: 25px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+button {
+  font-family: 'Athiti';
+  letter-spacing: 0px;
+  padding: 30px 45px;
+  border-radius: 10px;
+}
+
+.mx-6 {
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.cancel-bt {
+  background-color: #D9D9D9 !important;
+}
+
+.confirm-bt {
+  background-color: #87F58B !important;
+}
+
+.upload-bt {
+  background-color: #E8E2DC !important;
+}

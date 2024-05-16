@@ -11,6 +11,7 @@ const routes: Routes = [
     loadChildren: () =>
       import('./login/login.module').then((min) => min.LoginModule),
     component: LoginComponent,
+    pathMatch: 'full',
   },
   {
     path: 'home',
